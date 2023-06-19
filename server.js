@@ -12,5 +12,9 @@ app.use(express.json());
 
 // listen for requests on port 3001.
 app.listen(port, () => {
-    console.log(`API server now on port ${port}!`);
+    console.log(`API server now on port http://localhost:${port}`);
     });
+
+    // use apiRoutes
+app.use(frontRoute);
+app.use(backRoute);
