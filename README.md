@@ -23,8 +23,8 @@ You will need to run `npm install` which will install the following package depe
 In order to run the program, after obtaining all of the dependancies you will need to run;
 * `node server.js` : this will begin the program in your terminal, and give you a link to access on your local machine. Ex (http://localhost:3001)
 * You will also be able to use the link provided to heroku to access the application.
-* Application link to heroku: [Note Taker]()
-* Application link to github repository: [Note Taker]()
+* Application link to heroku: [Note Taker](https://note-tracker1-5e3a61cd1dc9.herokuapp.com/)
+* Application link to github repository: [Note Taker](https://github.com/Blossomswilts/note-taker)
 
 ## Contribution
 If you would like to contribute to this project, and improve it in your own way(s), please do the following:
