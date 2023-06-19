@@ -7,7 +7,7 @@ const fs = require('fs');
 
 backRouter.get('/api/notes', async (req, res) => {
     try {
-        const notes = fs.readFileSync('./db/db.json', 'utf8');
+        const notes = fs.readFileSync('./Develop/db/db.json', 'utf8');
         res.json(JSON.parse(notes));
     } catch (err) {
         console.log(err);
@@ -18,12 +18,12 @@ backRouter.get('/api/notes', async (req, res) => {
 
 backRouter.post('/api/notes', async (req, res) => {
     try {
-        const notes = await fs.readFileSync('./db/db.json', 'utf8');
+        const notes = await fs.readFileSync('./Develop/db/db.json', 'utf8');
         const notesArray = JSON.parse(notes);
         const newNote = req.body;
         newNote.id = uuidv4();
         notesArray.push(newNote);
-        fs.writeFileSync('./db/db.json', JSON.stringify(notesArray));
+        fs.writeFileSync('./Develop/db/db.json', JSON.stringify(notesArray));
         res.json(notesArray);
     } catch (err) {
         console.log(err);
@@ -34,10 +34,10 @@ backRouter.post('/api/notes', async (req, res) => {
 
 backRouter.delete('/api/notes/:id', async (req, res) => {
     try {
-        const notes = fs.readFileSync('./db/db.json', 'utf8');
+        const notes = fs.readFileSync('./Develop/db/db.json', 'utf8');
         const notesArray = JSON.parse(notes);
         const deleteNote = notesArray.filter(note => note.id !== req.params.id);
-        await fs.writeFileSync('./db/db.json', JSON.stringify(deleteNote));
+        await fs.writeFileSync('./Develop/db/db.json', JSON.stringify(deleteNote));
         res.json(deleteNote);
     } catch (err) {
         console.log(err);
