@@ -5,7 +5,7 @@ const fs = require('fs');
 
 // GET request for notes from db.json
 
-backRouter.get('/notes', async (req, res) => {
+backRouter.get('/api/notes', async (req, res) => {
     try {
         const notes = await fs.readFileSync('./db/db.json', 'utf8');
         res.json(JSON.parse(notes));
@@ -16,7 +16,7 @@ backRouter.get('/notes', async (req, res) => {
 
 // POST request to add notes to db.json
 
-backRouter.post('/notes', async (req, res) => {
+backRouter.post('/api/notes', async (req, res) => {
     try {
         const notes = await fs.readFileSync('./db/db.json', 'utf8');
         const notesArray = JSON.parse(notes);
@@ -32,7 +32,7 @@ backRouter.post('/notes', async (req, res) => {
 
 // DELETE request to delete notes from db.json
 
-backRouter.delete('/notes/:id', async (req, res) => {
+backRouter.delete('/api/notes/:id', async (req, res) => {
     try {
         const notes = await fs.readFileSync('./db/db.json', 'utf8');
         const notesArray = JSON.parse(notes);
