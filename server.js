@@ -1,7 +1,7 @@
 const express = require('express');
 const frontRoute = require('./Develop/routes/route-frontend');
 const backRoute = require('./Develop/routes/route-api');
-const port = process.env.PORT || 3001;
+const port = process.env.PORT || 3000;
 const path = require('path');
 
 
