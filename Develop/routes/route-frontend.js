@@ -3,7 +3,7 @@ const path = require('path');
 
 // GET route for homepage
 // This will allow the user to view the homepage
-frontRouter.get('/', (req, res) => {
+frontRouter.get('*', (req, res) => {
     res.sendFile(path.join(__dirname, '../public/index.html'));
 });
 
