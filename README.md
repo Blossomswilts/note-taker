@@ -15,12 +15,12 @@ Using Node JS and Express, this application will allow the user to create a new 
 
 ## Installation
 To have this application on your own system, `git clone` the repository and set it up in your local system. Ex (Vs Code).
-You will need to run `npm install` which will install the following package dependacies;
+You will need to run `npm install` which will install the following package dependencies;
 * `express` : this will be what runs the server, and allows the user to view the application in their browser.
 * `fs` : this will be what writes the actual README.md file.
 
 ## Usage
-In order to run the program, after obtaining all of the dependancies you will need to run;
+In order to run the program, after obtaining all of the dependencies you will need to run;
 * `node server.js` : this will begin the program in your terminal, and give you a link to access on your local machine. Ex (http://localhost:3001)
 * You will also be able to use the link provided to heroku to access the application.
 * Application link to heroku: [Note Taker](https://note-tracker1-5e3a61cd1dc9.herokuapp.com/)
@@ -38,14 +38,10 @@ As a side note, when making changes, always merge or pull from the latest versio
 
 ## Screenshots
 This shows the terminal program, and what questions will be asked. 
-![terminal app]()
+![Index]()
 
 This shows the tests results from the jest package.
-![jest test]()
-
-
-This shows the example SVG logo example. 
-![Example SVG]()
+![Note Page]()
 
 
 ## License
@@ -54,7 +50,7 @@ This shows the example SVG logo example.
 ## Questions
 If you have any questions, or would like to show off some of your work, don't hesitate to message me through any of the following contacts!
 
-GitHub: [Blossomswilt]
+GitHub: [Blossomswilts](https://github.com/Blossomswilts)
 (ctrl+click to follow link, where you can see this user's repositories and profile)
     
 
