@@ -3,8 +3,6 @@
 
 ## Description
 Using Node JS and Express, this application will allow the user to create a new note, save it, and delete it. The user will be able to view all of their notes, and select a note to view it's contents.
-- Live Application: [Note Taker](https://note-tracker1-5e3a61cd1dc9.herokuapp.com/)
-- GitHub Repository: [Note Taker](https://github.com/Blossomswilts/note-taker)
 
 ## Table of Contents
 * [Installation](#installation)
@@ -19,7 +17,6 @@ Using Node JS and Express, this application will allow the user to create a new 
 To have this application on your own system, `git clone` the repository and set it up in your local system. Ex (Vs Code).
 You will need to run `npm install` which will install the following package dependencies;
 * `express` : this will be what runs the server, and allows the user to view the application in their browser.
-* `fs` : this will be what writes the actual README.md file.
 
 ## Usage
 In order to run the program, after obtaining all of the dependencies you will need to run;
