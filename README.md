@@ -3,6 +3,8 @@
 
 ## Description
 Using Node JS and Express, this application will allow the user to create a new note, save it, and delete it. The user will be able to view all of their notes, and select a note to view it's contents.
+- Live Application: [Note Taker](https://note-tracker1-5e3a61cd1dc9.herokuapp.com/)
+- GitHub Repository: [Note Taker](https://github.com/Blossomswilts/note-taker)
 
 ## Table of Contents
 * [Installation](#installation)
@@ -37,11 +39,11 @@ If you would like to contribute to this project, and improve it in your own way(
 As a side note, when making changes, always merge or pull from the latest version to ensure you are working on the most up to date version of the application. 
 
 ## Screenshots
-This shows the terminal program, and what questions will be asked. 
-![Index]()
+This shows the home page for the note taker application.
+![index page](https://github.com/Blossomswilts/note-taker/assets/117021869/2fd45ed6-31bb-47cf-8858-7e3f54d111d8)
 
-This shows the tests results from the jest package.
-![Note Page]()
+This shows the note page where the user can create a new note, save it, and delete it.
+![note page](https://github.com/Blossomswilts/note-taker/assets/117021869/7d821016-3216-4214-8954-4c29525a573f)
 
 
 ## License
